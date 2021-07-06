@@ -36,6 +36,28 @@ namespace Single_Linked_List{
             }
         }    
 
-        public void DeletItemFromTheList(int value){}
+        public void DeletItemFromTheList(int value){
+            if(start == null){
+                Console.WriteLine("List is empty");
+                return;
+            }
+
+            if(start.data == value){
+                start = start.next;
+                return;
+            }
+            Node previous = start;
+            while(previous.next!= null){
+                if(previous.next.data == value){
+                    previous.next = previous.next.next;
+                    previous = previous.next;
+                    return;
+                }
+                previous = previous.next;
+            }
+
+            Console.WriteLine("Element not found in the list");
+            
+        }
     }
 }
