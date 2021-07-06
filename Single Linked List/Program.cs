@@ -21,8 +21,9 @@ namespace Single_Linked_List
 
         private void ShowUserGuide(){
             Console.WriteLine("Please select options for Single Linked List");
-            Console.WriteLine("Enter 1 for Creating a new List");
-            Console.WriteLine("Enter 2 for Displaying the List");
+            Console.WriteLine("Enter 1 for Creating a new list");
+            Console.WriteLine("Enter 2 for Displaying the list");
+            Console.WriteLine("Enter 3 for Deleting and item from the list");
 
         }
         private void ExeuteOperationBasedOnInput(int input){
@@ -34,6 +35,10 @@ namespace Single_Linked_List
                 
                 case 2: 
                 DisplayList();
+                break;
+
+                case 3: 
+                DeleteItem();
                 break;
 
                 default:
@@ -58,6 +63,12 @@ namespace Single_Linked_List
 
         private void DisplayList(){
             linkedList.DisplayLinkedList(); 
+            Console.WriteLine("\n");
+        }
+         private void DeleteItem(){
+            Console.Write("Enter the value you want to delet from the list: ");
+            int value = Convert.ToInt32(Console.ReadLine());
+            linkedList.DeletItemFromTheList(value); 
             Console.WriteLine("\n");
         }
     }
