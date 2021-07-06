@@ -1,4 +1,4 @@
-![example workflow](https://github.com/bishtgovind30/DSA/actions/workflows/CI-CD.yml/badge.svg)
+![Build Status](https://github.com/bishtgovind30/DSA/actions/workflows/CI-CD.yml/badge.svg)
 # DSA
 DSA journey...
 
