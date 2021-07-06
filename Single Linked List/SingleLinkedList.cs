@@ -35,5 +35,7 @@ namespace Single_Linked_List{
                 currentNode = currentNode.next;
             }
         }    
+
+        public void DeletItemFromTheList(int value){}
     }
 }
