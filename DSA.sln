@@ -5,6 +5,8 @@ VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Linked List", "Single Linked List\Single Linked List.csproj", "{F411247B-5B02-463B-9FF2-76DA3EFF072C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleLinkedList", "DoubleLinkedList\DoubleLinkedList.csproj", "{BDBEF927-C862-4337-BFAC-65A2426CE713}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{F411247B-5B02-463B-9FF2-76DA3EFF072C}.Release|x64.Build.0 = Release|Any CPU
 		{F411247B-5B02-463B-9FF2-76DA3EFF072C}.Release|x86.ActiveCfg = Release|Any CPU
 		{F411247B-5B02-463B-9FF2-76DA3EFF072C}.Release|x86.Build.0 = Release|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Debug|x64.Build.0 = Debug|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Debug|x86.Build.0 = Debug|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|x64.ActiveCfg = Release|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|x64.Build.0 = Release|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|x86.ActiveCfg = Release|Any CPU
+		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
