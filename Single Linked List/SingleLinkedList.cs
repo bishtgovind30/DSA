@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 
 namespace Single_Linked_List{
     class SingleLinkedList{
@@ -58,6 +59,20 @@ namespace Single_Linked_List{
 
             Console.WriteLine("Element not found in the list");
             
+        }
+    
+        public void ReverseList(){
+            Node previousNode = null;
+            Node current = start;
+            Node nextNode;
+            while (current!=null)
+            {
+                nextNode = current.next;
+                current.next = previousNode;
+                previousNode = current;
+                current = nextNode;
+            }
+            start= previousNode;
         }
     }
 }

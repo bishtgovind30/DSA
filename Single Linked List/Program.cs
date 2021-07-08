@@ -24,6 +24,7 @@ namespace Single_Linked_List
             Console.WriteLine("Enter 1 for Creating a new list");
             Console.WriteLine("Enter 2 for Displaying the list");
             Console.WriteLine("Enter 3 for Deleting and item from the list");
+            Console.WriteLine("Enter 4 for Reversing the list");
 
         }
         private void ExeuteOperationBasedOnInput(int input){
@@ -39,6 +40,10 @@ namespace Single_Linked_List
 
                 case 3: 
                 DeleteItem();
+                break;
+
+                case 4: 
+                ReverseList();
                 break;
 
                 default:
@@ -66,9 +71,14 @@ namespace Single_Linked_List
             Console.WriteLine("\n");
         }
          private void DeleteItem(){
-            Console.Write("Enter the value you want to delet from the list: ");
+            Console.Write("Enter the value you want to delete from the list: ");
             int value = Convert.ToInt32(Console.ReadLine());
             linkedList.DeletItemFromTheList(value); 
+            Console.WriteLine("\n");
+        }
+
+        private void ReverseList(){
+            linkedList.ReverseList(); 
             Console.WriteLine("\n");
         }
     }
