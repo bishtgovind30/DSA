@@ -1,4 +1,4 @@
-![Build Status](https://github.com/bishtgovind30/DSA/actions/workflows/CI-CD.yml/badge.svg?branch=main)
+![Build Status](https://github.com/bishtgovind30/DSA/workflows/CI-CD/badge.svg)
 # DSA
 DSA journey...
 
