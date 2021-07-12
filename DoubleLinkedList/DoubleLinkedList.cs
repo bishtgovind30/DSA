@@ -45,5 +45,37 @@ namespace DSA.DoubleLinkedList
                 currentNode=currentNode.next;
             }
         }
+
+        public void DeletItemFromTheList(int value){
+            if(head == null){
+                Console.WriteLine("List is empty");
+                return;
+            }
+            else if(head.data == value){
+                head = head.next;
+                return;
+            }
+
+            Node currentNode = head;
+            while (currentNode.next!=null)
+            {
+                if(currentNode.data == value)
+                break;
+                
+                currentNode=currentNode.next;
+            }
+
+            if(currentNode.next!=null){
+                currentNode.previous.next = currentNode.next;
+                currentNode.next.previous = currentNode.previous;
+            }
+            else{
+                if(currentNode.data == value)
+                    currentNode.previous.next = null;
+                else 
+                    Console.WriteLine("Element not found in the list");
+            }
+            
+        }
     }
 }

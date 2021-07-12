@@ -35,9 +35,9 @@ namespace DoubleLinkedList
                 DisplayList();
                 break;
 
-                // case 3: 
-                // DeleteItem();
-                // break;
+                case 3: 
+                DeleteItem();
+                break;
 
                 default:
                 exit = true;
@@ -61,6 +61,13 @@ namespace DoubleLinkedList
 
         private void DisplayList(){
             doubleLinkedList.DisplayList();
+            Console.WriteLine("\n");
+        }
+
+        private void DeleteItem(){
+            Console.Write("Enter the value you want to delete from the list: ");
+            int value = Convert.ToInt32(Console.ReadLine());
+            doubleLinkedList.DeletItemFromTheList(value); 
             Console.WriteLine("\n");
         }
 
