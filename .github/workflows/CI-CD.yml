@@ -1,4 +1,4 @@
-name: .NET Core CLI
+name: CI-CD
 
 on:
   push:
