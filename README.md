@@ -1,4 +1,4 @@
-![Build Status](https://github.com/bishtgovind30/DSA/workflows/CI-CD/badge.svg)
+![<LABEL>](https://img.shields.io/github/workflow/status/bishtgovind30/DSA/CI?style=flat&logo=github)
 # DSA
 DSA journey...
 
