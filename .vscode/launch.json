@@ -8,7 +8,7 @@
             "name": "SLL",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-DLL",
+            "preLaunchTask": "build-SLL",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/Single Linked List/bin/Debug/net5.0/Single Linked List.dll",
             "args": [],
@@ -39,6 +39,19 @@
             "program": "${workspaceFolder}/CircularLinkedList/bin/Debug/net5.0/CircularLinkedList.dll",
             "args": [],
             "cwd": "${workspaceFolder}/CircularLinkedList",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Sorted-LL",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Sorted-LL",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/SortedLinkedList/bin/Debug/net5.0/SortedLinkedList.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SortedLinkedList",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
