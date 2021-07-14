@@ -45,7 +45,6 @@ namespace DSA.DoubleLinkedList
                 currentNode=currentNode.next;
             }
         }
-
         public void DeletItemFromTheList(int value){
             if(head == null){
                 Console.WriteLine("List is empty");
@@ -76,6 +75,22 @@ namespace DSA.DoubleLinkedList
                     Console.WriteLine("Element not found in the list");
             }
             
+        }
+    
+        public void ReverseList(){
+            Node currentNode = head;
+            Node nextNode = currentNode.next;
+            currentNode.next = null;
+            currentNode.previous = nextNode;
+
+            while (nextNode!=null)
+            {
+                nextNode.previous = nextNode.next;
+                nextNode.next = currentNode;
+                currentNode = nextNode;
+                nextNode = nextNode.previous;
+            }
+            head = currentNode;
         }
     }
 }

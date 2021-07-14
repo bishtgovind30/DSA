@@ -39,6 +39,10 @@ namespace DoubleLinkedList
                 DeleteItem();
                 break;
 
+                case 4: 
+                ReverseList();
+                break;
+
                 default:
                 exit = true;
                 break;
@@ -68,6 +72,11 @@ namespace DoubleLinkedList
             Console.Write("Enter the value you want to delete from the list: ");
             int value = Convert.ToInt32(Console.ReadLine());
             doubleLinkedList.DeletItemFromTheList(value); 
+            Console.WriteLine("\n");
+        }
+
+        private void ReverseList(){
+            doubleLinkedList.ReverseList();
             Console.WriteLine("\n");
         }
 
