@@ -50,5 +50,17 @@
             ],
             "problemMatcher": "$msCompile"
         }
+        {
+            "label": "build-CLL",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/CircularLinkedList/CircularLinkedList.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
     ]
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Linked List", "Singl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleLinkedList", "DoubleLinkedList\DoubleLinkedList.csproj", "{BDBEF927-C862-4337-BFAC-65A2426CE713}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularLinkedList", "CircularLinkedList\CircularLinkedList.csproj", "{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|x64.Build.0 = Release|Any CPU
 		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|x86.ActiveCfg = Release|Any CPU
 		{BDBEF927-C862-4337-BFAC-65A2426CE713}.Release|x86.Build.0 = Release|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Debug|x64.Build.0 = Debug|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Debug|x86.Build.0 = Debug|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Release|x64.ActiveCfg = Release|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Release|x64.Build.0 = Release|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{9CDD06C3-FF4C-41F4-8D1B-F5A4C6A55C4D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

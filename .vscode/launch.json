@@ -31,6 +31,19 @@
             "stopAtEntry": false
         },
         {
+            "name": "CLL",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-CLL",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/CircularLinkedList/bin/Debug/net5.0/CircularLinkedList.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CircularLinkedList",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
@@ -39,7 +52,7 @@
     "compounds": [
         {
             "name": "DSA",
-            "configurations": [".NET Core Launch (console) - SLL", ".NET Core Launch (console) - DLL"]
+            "configurations": ["SLL", "DLL", "CLL"]
         }
     ]
 }
