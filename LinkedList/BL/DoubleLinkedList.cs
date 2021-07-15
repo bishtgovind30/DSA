@@ -4,7 +4,7 @@ using LinkedList.Model;
 
 namespace LinkedList.BL
 {
-    class DoubleLinkedList : ILinkedListAdvance
+    class DoubleLinkedList : ILinkedList
     {
         private DoubleNode headNode;
         public void DeletItemFromTheList(int value)
@@ -87,6 +87,15 @@ namespace LinkedList.BL
                 nextNode = nextNode.previous;
             }
             headNode = currentNode;
+        }
+
+        void ILinkedList.ShowOptions()
+        {
+            Console.WriteLine("Please select options for Double Linked List");
+            Console.WriteLine("Enter 1 for Creating a new list");
+            Console.WriteLine("Enter 2 for Displaying the list");
+            Console.WriteLine("Enter 3 for Deleting and item from the list");
+            Console.WriteLine("Enter 4 for Reversing the list");
         }
     }
 }

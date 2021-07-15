@@ -4,7 +4,7 @@ using LinkedList.Model;
 
 namespace LinkedList.BL
 {
-    class SingleLinkedList : ILinkedListAdvance
+    class SingleLinkedList : ILinkedList
     {
         private Node startNode;
 
@@ -72,6 +72,15 @@ namespace LinkedList.BL
                 current = nextNode;
             }
             startNode= previousNode;
+        }
+
+        public void ShowOptions()
+        {
+            Console.WriteLine("Please select options for Single Linked List");
+            Console.WriteLine("Enter 1 for Creating a new list");
+            Console.WriteLine("Enter 2 for Displaying the list");
+            Console.WriteLine("Enter 3 for Deleting and item from the list");
+            Console.WriteLine("Enter 4 for Reversing the list");
         }
     }
 }
