@@ -10,7 +10,7 @@ namespace LinkedList.BL
 
         public void DeletItemFromTheList(int value)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Operation not supported");
         }
 
         public void DisplayList()
@@ -45,7 +45,7 @@ namespace LinkedList.BL
 
         public void ReverseList()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Operation not supported");
         }
 
         void ILinkedList.ShowOptions()
