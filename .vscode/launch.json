@@ -15,15 +15,28 @@
             "stopAtEntry": false
         },
         {
+            "name": "Problems",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-problems",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/Problems/bin/Debug/net5.0/Problems.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Problems",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
         }
-    ],
-    "compounds": [
-        {
-            "name": "DSA",
-            "configurations": ["SLL", "DLL", "CLL"]
-        }
-    ]
+    ]//,
+    // "compounds": [
+    //     {
+    //         "name": "DSA",
+    //         "configurations": ["SLL", "DLL", "CLL"]
+    //     }
+    // ]
 }
